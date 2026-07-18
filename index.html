@@ -3,24 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Phan Hoàng Cẩm Tú — Portfolio ✨</title>
+<title>Phan Hoàng Cẩm Tú — Portfolio 🎀</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Quicksand:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root{
-    --cream: #F4F9F4;
+    --cream: #FFF5F5;
     --paper: #FFFFFF;
-    --sand: #E8F0E8;
-    --latte: #A3C9A8;
-    --mocha: #74A57F;
-    --cocoa: #4E7C59;
-    --ink: #2B3A2F;
-    --ink-soft: #5C6E61;
-    --lavender: #E3ECE6;
-    --peach: #F0E6DF;
-    --butter: #FFF6E3;
-    --shadow: 0 20px 44px -20px rgba(78, 124, 89, 0.25);
+    --sand: #FFEBEF;
+    --latte: #FFC2CD;
+    --mocha: #FFA4B4;
+    --cocoa: #FF7B93;
+    --ink: #5C3D43;
+    --ink-soft: #8C6A70;
+    --lavender: #FFF0F2;
+    --peach: #FFE5E9;
+    --butter: #FFF2E6;
+    --shadow: 0 20px 44px -20px rgba(255, 123, 147, 0.25);
     --radius: 26px;
   }
   *{ box-sizing: border-box; }
@@ -45,11 +45,11 @@
     color: #fff; padding: 34px 26px; display: flex; flex-direction: column;
     z-index: 20; overflow-y: auto;
   }
-  .sidebar *{ text-shadow: 0 1px 3px rgba(43,58,47,0.3); }
+  .sidebar *{ text-shadow: 0 1px 3px rgba(92,61,67,0.2); }
   .sidebar::-webkit-scrollbar{ width: 0; }
   .passport-badge{
     align-self: flex-start; font-size: 0.68rem; font-weight: 800; letter-spacing: 1.5px;
-    background: rgba(255,255,255,0.28); padding: 5px 12px; border-radius: 999px; margin-bottom: 22px;
+    background: rgba(255,255,255,0.35); padding: 5px 12px; border-radius: 999px; margin-bottom: 22px;
     text-transform: uppercase;
   }
   .avatar-wrap{ display: flex; justify-content: center; margin-bottom: 18px; }
@@ -57,7 +57,7 @@
     width: 132px; height: 132px; border-radius: 50%;
     background: linear-gradient(150deg, #fff, var(--sand));
     display: flex; align-items: center; justify-content: center;
-    border: 5px solid rgba(255,255,255,0.85); box-shadow: 0 14px 30px -10px rgba(43,58,47,0.35);
+    border: 5px solid rgba(255,255,255,0.95); box-shadow: 0 14px 30px -10px rgba(92,61,67,0.25);
     position: relative; animation: bobble 5s ease-in-out infinite; text-shadow: none;
     overflow: visible;
   }
@@ -65,7 +65,7 @@
     width: 100%; height: 100%; border-radius: 50%; object-fit: cover;
   }
   @keyframes bobble{ 0%,100%{ transform: translateY(0) rotate(-2deg);} 50%{ transform: translateY(-8px) rotate(2deg);} }
-  .avatar::after{ content:"🌱"; position:absolute; bottom:-4px; right:-6px; font-size:1.6rem; z-index: 2; }
+  .avatar::after{ content:"🎀"; position:absolute; bottom:-4px; right:-6px; font-size:1.6rem; z-index: 2; }
 
   .side-name{ text-align: center; font-size: 1.5rem; line-height: 1.25; margin: 4px 0 6px; }
   .side-sub{ text-align: center; font-size: 0.86rem; opacity: 0.95; margin: 0 0 18px; }
@@ -88,7 +88,7 @@
   .drive-btn{
     display: flex; align-items: center; justify-content: center; gap: 8px;
     background: #fff; color: var(--cocoa); font-weight: 800; font-size: 0.85rem;
-    padding: 12px 14px; border-radius: 999px; box-shadow: 0 10px 20px -8px rgba(43,58,47,0.3);
+    padding: 12px 14px; border-radius: 999px; box-shadow: 0 10px 20px -8px rgba(92,61,67,0.2);
     transition: transform 0.3s cubic-bezier(.3,1.4,.5,1); text-shadow: none;
   }
   .drive-btn:hover{ transform: translateY(-3px) rotate(-1deg); }
@@ -100,16 +100,16 @@
 
   .postcard{
     position: relative; background: var(--paper); border-radius: var(--radius);
-    box-shadow: var(--shadow); border: 1px solid rgba(78,124,89,0.16);
+    box-shadow: var(--shadow); border: 1px solid rgba(255,123,147,0.16);
     padding: 44px; margin-bottom: 46px; overflow: hidden;
   }
   .tape{
     position: absolute; width: 90px; height: 28px; opacity: 0.85;
-    background: repeating-linear-gradient(45deg, var(--lavender), var(--lavender) 6px, #cedbce 6px, #cedbce 12px);
-    box-shadow: 0 4px 10px -4px rgba(43,58,47,0.25);
+    background: repeating-linear-gradient(45deg, var(--lavender), var(--lavender) 6px, #FFE0E5 6px, #FFE0E5 12px);
+    box-shadow: 0 4px 10px -4px rgba(92,61,67,0.15);
   }
   .tape.tl{ top: -12px; left: 26px; transform: rotate(-8deg); }
-  .tape.tr{ top: -12px; right: 26px; transform: rotate(7deg); background: repeating-linear-gradient(45deg, var(--peach), var(--peach) 6px, #e6dad1 6px, #e6dad1 12px); }
+  .tape.tr{ top: -12px; right: 26px; transform: rotate(7deg); background: repeating-linear-gradient(45deg, var(--peach), var(--peach) 6px, #FFD1D8 6px, #FFD1D8 12px); }
 
   .reveal{ opacity: 0; transform: translateY(28px); transition: opacity 0.6s ease, transform 0.6s cubic-bezier(.2,.8,.3,1.1); }
   .reveal.in-view{ opacity: 1; transform: translateY(0); }
@@ -129,24 +129,25 @@
   .hero-text{ grid-column: 1; }
   .hero-side{
     grid-column: 2; background: linear-gradient(160deg, var(--sand), var(--peach));
-    border-radius: 20px; padding: 24px; border: 1px dashed rgba(78,124,89,0.35);
+    border-radius: 20px; padding: 24px; border: 1px dashed rgba(255,123,147,0.35);
   }
   .hero-side h4{ margin: 0 0 12px; font-size: 0.9rem; color: var(--cocoa); letter-spacing: 0.5px; text-transform: uppercase; }
   .hero-side i{ text-shadow: none; }
-  .hero-info-line{ display:flex; justify-content: space-between; gap: 10px; font-size: 0.86rem; padding: 9px 0; border-bottom: 1px dashed rgba(78,124,89,0.25); color: var(--ink); }
+  .hero-info-line{ display:flex; justify-content: space-between; gap: 10px; font-size: 0.86rem; padding: 9px 0; border-bottom: 1px dashed rgba(255,123,147,0.25); color: var(--ink); }
   .hero-info-line:last-child{ border-bottom: none; }
   .hero-info-line b{ color: var(--ink-soft); font-weight: 700; text-align: right; text-shadow: none; }
   
-  .intro-grid-container { display: grid; grid-template-columns: 1.2fr 1fr; gap: 24px; width: 100%; border-top: 2px dashed rgba(78,124,89,0.2); padding-top: 24px; }
+  .intro-grid-container { display: grid; grid-template-columns: 1.2fr 1fr; gap: 24px; width: 100%; border-top: 2px dashed rgba(255,123,147,0.2); padding-top: 24px; }
   .intro-text-block h3 { font-size: 1.2rem; color: var(--cocoa); margin: 0 0 12px; }
-  .intro-text-block ul { padding-left: 18px; margin: 0; color: var(--ink-soft); font-size: 0.92rem; line-height: 1.75; }
-  .intro-text-block ul li { margin-bottom: 8px; }
+  .intro-text-block .goal-cards-wrapper { display: flex; flex-direction: column; gap: 8px; }
+  .goal-badge-card { display: flex; gap: 10px; align-items: flex-start; background: rgba(255,123,147,0.04); padding: 10px 12px; border-radius: 12px; font-size: 0.92rem; color: var(--ink-soft); line-height: 1.6; }
+  .goal-badge-card .card-ic { flex-shrink: 0; }
 
   .intro-strip{
     display: flex; flex-direction: column; gap: 14px;
   }
   .intro-pill{
-    background: rgba(78,124,89,0.06); border: 1px dashed rgba(78,124,89,0.3);
+    background: rgba(255,123,147,0.06); border: 1px dashed rgba(255,123,147,0.3);
     border-radius: 16px; padding: 14px 16px; display: flex; gap: 12px; align-items: center;
   }
   .intro-pill .ic{ font-size: 1.4rem; flex-shrink: 0; }
@@ -166,7 +167,7 @@
   .work-masonry{ column-count: 2; column-gap: 20px; }
   .work-card{
     break-inside: avoid; margin-bottom: 20px; border-radius: 20px; padding: 22px 24px;
-    background: var(--paper); border: 1.5px solid rgba(78,124,89,0.18); box-shadow: var(--shadow);
+    background: var(--paper); border: 1.5px solid rgba(255,123,147,0.18); box-shadow: var(--shadow);
     transition: transform 0.35s cubic-bezier(.3,1.4,.5,1);
   }
   .work-card:hover{ transform: translateY(-6px) rotate(-0.6deg); }
@@ -174,7 +175,7 @@
   .work-card h3{ margin: 2px 0 8px; font-size: 1.06rem; color: var(--ink); }
 
   .goal-block{
-    background: rgba(78,124,89,0.08); border: 1px dashed rgba(78,124,89,0.35);
+    background: rgba(255,123,147,0.08); border: 1px dashed rgba(255,123,147,0.35);
     border-radius: 14px; padding: 12px 14px; margin: 0 0 14px;
   }
   .goal-line{ font-size: 0.87rem; line-height: 1.6; color: var(--ink-soft); margin: 0; }
@@ -183,7 +184,7 @@
     display: inline-block; font-weight: 800; font-size: 0.78rem; color: var(--cocoa);
     background: #fff; border-radius: 999px; padding: 3px 10px; margin-right: 8px;
   }
-  .goal-label.result{ color: #628E6E; }
+  .goal-label.result{ color: var(--cocoa); background: var(--sand); }
 
   .work-btn-row{ display: flex; gap: 8px; }
   .work-detail-btn{
@@ -192,7 +193,7 @@
     transition: transform 0.3s cubic-bezier(.3,1.4,.5,1), box-shadow 0.3s ease;
     color: var(--cocoa); background: #fff; border: 1.5px solid var(--sand);
   }
-  .work-detail-btn:hover{ transform: translateY(-3px) scale(1.02); }
+  .work-detail-btn:hover{ transform: translateY(-3px) scale(1.02); background: var(--sand); }
   .img-tag{
     display: inline-flex; align-items:center; gap:4px; font-size: 0.68rem; font-weight: 800;
     color: #614D25; background: var(--butter); border: 1px solid #D9BA7E; border-radius: 999px;
@@ -201,14 +202,14 @@
 
   /* ---- Modal chi tiết bài tập ---- */
   .modal-overlay{
-    position: fixed; inset: 0; background: rgba(43,58,47,0.45); backdrop-filter: blur(3px);
+    position: fixed; inset: 0; background: rgba(92,61,67,0.45); backdrop-filter: blur(3px);
     display: none; align-items: center; justify-content: center; z-index: 100; padding: 24px;
   }
   .modal-overlay.open{ display: flex; }
   .modal-box{
     position: relative; background: var(--paper); max-width: 620px; width: 100%;
     max-height: 86vh; overflow-y: auto; border-radius: 24px; padding: 36px 34px;
-    box-shadow: 0 30px 60px -20px rgba(43,58,47,0.45); border: 1px solid rgba(78,124,89,0.2);
+    box-shadow: 0 30px 60px -20px rgba(92,61,67,0.45); border: 1px solid rgba(255,123,147,0.2);
     animation: pop-in 0.35s cubic-bezier(.25,1.3,.4,1);
   }
   @keyframes pop-in{ from{ opacity:0; transform: translateY(18px) scale(0.97); } to{ opacity:1; transform: translateY(0) scale(1); } }
@@ -226,7 +227,7 @@
   .modal-box h3{ margin: 0; font-size: 1.25rem; color: var(--ink); line-height: 1.35; }
 
   .modal-intro-box{
-    background: rgba(78,124,89,0.07); border: 1px solid rgba(78,124,89,0.2);
+    background: rgba(255,123,147,0.07); border: 1px solid rgba(255,123,147,0.2);
     border-radius: 16px; padding: 16px 18px; margin-bottom: 18px;
   }
   .modal-intro-box p{ margin: 0 0 10px; font-size: 0.9rem; line-height: 1.75; color: var(--ink); }
@@ -237,7 +238,7 @@
   .modal-images-row{ display: none; gap: 14px; flex-wrap: wrap; margin-bottom: 18px; }
   .modal-actual-img {
     flex: 1; min-width: 200px; max-height: 220px; object-fit: cover;
-    border-radius: 16px; border: 1px solid rgba(78,124,89,0.25);
+    border-radius: 16px; border: 1px solid rgba(255,123,147,0.25);
     box-shadow: 0 6px 16px rgba(0,0,0,0.08);
   }
 
@@ -261,8 +262,8 @@
   .modal-steps .step-text b{ color: var(--ink); }
 
   .modal-lesson{
-    background: linear-gradient(135deg, rgba(78,124,89,0.1), rgba(232,240,232,0.55));
-    border-radius: 16px; padding: 18px 20px; border: 1px dashed rgba(78,124,89,0.4);
+    background: linear-gradient(135deg, rgba(255,123,147,0.1), rgba(255,235,239,0.55));
+    border-radius: 16px; padding: 18px 20px; border: 1px dashed rgba(255,123,147,0.4);
     display: flex; gap: 12px; align-items: flex-start;
   }
   .modal-lesson .step-dot{ background: var(--cocoa); margin-top: 8px; }
@@ -274,21 +275,22 @@
   
   .summary-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; text-align: left; margin-bottom: 36px; }
   .summary-card {
-    background: rgba(78,124,89,0.05); border: 1px solid rgba(78,124,89,0.18);
+    background: rgba(255,123,147,0.05); border: 1px solid rgba(255,123,147,0.18);
     border-radius: 18px; padding: 22px 24px; transition: transform 0.3s ease;
   }
-  .summary-card:hover { transform: translateY(-3px); background: rgba(78,124,89,0.08); }
+  .summary-card:hover { transform: translateY(-3px); background: rgba(255,123,147,0.08); }
   .summary-card h3 { font-size: 1.08rem; margin: 0 0 10px; color: var(--cocoa); display: flex; align-items: center; gap: 8px; }
   .summary-card p { font-size: 0.9rem; line-height: 1.7; color: var(--ink-soft); margin: 0; text-align: justify; }
-  .summary-card ul { margin: 0; padding-left: 18px; color: var(--ink-soft); font-size: 0.9rem; line-height: 1.7; }
-  .summary-card ul li { margin-bottom: 4px; }
+  .summary-card .skills-card-list { display: flex; flex-direction: column; gap: 6px; }
+  .skill-badge-item { display: flex; gap: 8px; align-items: center; font-size: 0.9rem; color: var(--ink-soft); }
+  .skill-badge-item .sk-ic { flex-shrink: 0; }
 
-  .stat-row{ display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; border-top: 2px dashed rgba(78,124,89,0.3); padding-top: 26px; }
+  .stat-row{ display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; border-top: 2px dashed rgba(255,123,147,0.3); padding-top: 26px; }
   .stat-row .num{ font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.9rem; color: var(--cocoa); }
   .stat-row .label{ font-size: 0.82rem; color: var(--ink-soft); }
 
   .thanks-box{
-    margin-top: 30px; padding-top: 26px; border-top: 2px dashed rgba(78,124,89,0.3);
+    margin-top: 30px; padding-top: 26px; border-top: 2px dashed rgba(255,123,147,0.3);
   }
   .thanks-box h3{ font-size: 1.1rem; margin: 0 0 10px; color: var(--cocoa); }
   .thanks-box p{ font-size: 0.92rem; line-height: 1.85; color: var(--ink-soft); max-width: 720px; margin: 0 auto 12px; text-align: justify; }
@@ -320,7 +322,7 @@
 <div class="app">
 
   <aside class="sidebar">
-    <span class="passport-badge">✨ Portfolio</span>
+    <span class="passport-badge">🎀 Portfolio</span>
     <div class="avatar-wrap">
       <div class="avatar">
         <img src="anh.jpg" alt="Phan Hoàng Cẩm Tú">
@@ -340,7 +342,7 @@
 
     <div class="side-footer">
       <a href="https://drive.google.com/drive/folders/1dtLTmFOuXG0eE8t-kmv2QERJ4kJ9mXJt?usp=drive_link" class="drive-btn">📁 Google Drive</a>
-      <p class="side-stamp">🌱 made by Phan Hoàng Cẩm Tú<br>at Trường Đại học Kinh tế - ĐHQGHN</p>
+      <p class="side-stamp">🎀 made by Phan Hoàng Cẩm Tú<br>at Trường Đại học Kinh tế - ĐHQGHN</p>
     </div>
   </aside>
 
@@ -351,15 +353,15 @@
 
       <div class="hero-main-layout">
         <div class="hero-text">
-          <span class="eyebrow">🌱 Portfolio cá nhân</span>
-          <span class="greet-en">Kính chào Quý Thầy, Cô!</span>
-          <h1>Chào mừng đến với không gian số của <span>Cẩm Tú</span> ✨</h1>
+          <span class="eyebrow">🧸 Portfolio cá nhân</span>
+          <span class="greet-en">Kính chào Quý Thầy, Cô! 🎀</span>
+          <h1>Chào mừng đến với không gian số của <span>Cẩm Tú</span> 🧸</h1>
           <p>Em là Phan Hoàng Cẩm Tú, sinh viên ngành Kinh tế Quốc tế tại Trường Đại học Kinh tế - ĐHQGHN. Em là người yêu thích học hỏi những kiến thức mới, đặc biệt trong lĩnh vực kinh tế, công nghệ và chuyển đổi số. Bên cạnh việc học tập, em cũng quan tâm đến sáng tạo nội dung, truyền thông và mong muốn ứng dụng công nghệ để nâng cao hiệu quả học tập cũng như công việc.</p>
           <p>Em tin rằng trong thời đại số, việc trang bị kiến thức và kỹ năng công nghệ là nền tảng quan trọng đối với mỗi sinh viên. Vì vậy, em luôn chủ động tìm hiểu, thực hành và không ngừng hoàn thiện bản thân thông qua việc ứng dụng các công cụ số vào học tập và cuộc sống.</p>
         </div>
 
         <div class="hero-side">
-          <h4>Thông tin sinh viên</h4>
+          <h4>Thông tin sinh viên 🎀</h4>
           <div class="hero-info-line"><span>Họ và tên</span><b>Phan Hoàng Cẩm Tú</b></div>
           <div class="hero-info-line"><span>Mã sinh viên</span><b>25051314</b></div>
           <div class="hero-info-line"><span>Ngành học</span><b>Kinh tế Quốc tế</b></div>
@@ -373,31 +375,31 @@
           <h3>🎯 Mục tiêu học tập</h3>
           <div class="goal-cards-wrapper">
             <div class="goal-badge-card">
-              <span class="card-ic">🔹</span>
-              <span>Nắm vững kiến thức chuyên ngành Kinh tế Quốc tế và đạt kết quả học tập tốt[cite: 2].</span>
+              <span class="card-ic">🎀</span>
+              <span>Nắm vững kiến thức chuyên ngành Kinh tế Quốc tế và đạt kết quả học tập tốt.</span>
             </div>
             <div class="goal-badge-card">
-              <span class="card-ic">🔹</span>
-              <span>Phát triển kỹ năng ngoại ngữ, tư duy phân tích và giải quyết vấn đề[cite: 2].</span>
+              <span class="card-ic">🎀</span>
+              <span>Phát triển kỹ năng ngoại ngữ, tư duy phân tích và giải quyết vấn đề.</span>
             </div>
             <div class="goal-badge-card">
-              <span class="card-ic">🔹</span>
-              <span>Rèn luyện kỹ năng công nghệ số, khai thác và xử lý thông tin hiệu quả[cite: 2].</span>
+              <span class="card-ic">🎀</span>
+              <span>Rèn luyện kỹ năng công nghệ số, khai thác và xử lý thông tin hiệu quả.</span>
             </div>
             <div class="goal-badge-card">
-              <span class="card-ic">🔹</span>
-              <span>Nâng cao kỹ năng giao tiếp, làm việc nhóm và thích ứng với môi trường hội nhập quốc tế[cite: 2].</span>
+              <span class="card-ic">🎀</span>
+              <span>Nâng cao kỹ năng giao tiếp, làm việc nhóm và thích ứng với môi trường hội nhập quốc tế.</span>
             </div>
             <div class="goal-badge-card">
-              <span class="card-ic">🔹</span>
-              <span>Không ngừng học hỏi, hoàn thiện bản thân và chuẩn bị nền tảng vững chắc cho công việc trong tương lai[cite: 2].</span>
+              <span class="card-ic">🎀</span>
+              <span>Không ngừng học hỏi, hoàn thiện bản thân và chuẩn bị nền tảng vững chắc cho công việc trong tương lai.</span>
             </div>
           </div>
         </div>
         
         <div class="intro-strip">
           <div class="intro-pill">
-            <span class="ic">🚀</span>
+            <span class="ic">🧸</span>
             <div class="pill-content">
               <h4>Định hướng phát triển</h4>
               <p>Xây dựng nền tảng chuyên môn vững vàng, tư duy hội nhập và khả năng thích ứng với môi trường làm việc hiện đại.</p>
@@ -416,12 +418,12 @@
 
     <section id="bai-tap" class="postcard reveal">
       <div class="tape tr"></div>
-      <div class="section-title"><span class="badge-num">01</span><h2>Hệ thống bài tập cá nhân</h2></div>
+      <div class="section-title"><span class="badge-num">01</span><h2>Hệ thống bài tập cá nhân 🎀</h2></div>
       <div class="work-masonry">
 
         <div class="work-card reveal">
           <span class="idx">01.</span>
-          <h3>✨ Tìm hiểu máy tính và thiết bị ngoại vi <span class="img-tag">🖼️ Đã chèn ảnh</span></h3>
+          <h3>🧸 Tìm hiểu máy tính và thiết bị ngoại vi <span class="img-tag">🖼️ Đã chèn ảnh</span></h3>
           <div class="goal-block">
             <p class="goal-line"><span class="goal-label">Mục tiêu</span>Nắm vững kiến thức nền tảng về cấu tạo, chức năng của máy tính và thiết bị ngoại vi, hình thành thói quen sử dụng, bảo quản thiết bị số khoa học.</p>
             <p class="goal-line"><span class="goal-label result">Thành quả</span>Sử dụng thành thạo các thiết bị số phục vụ học tập, biết tổ chức và lưu trữ dữ liệu học tập gọn gàng, có hệ thống.</p>
@@ -433,7 +435,7 @@
 
         <div class="work-card reveal">
           <span class="idx">02.</span>
-          <h3>✨ Khai thác và đánh giá dữ liệu, thông tin số</h3>
+          <h3>🧸 Khai thác và đánh giá dữ liệu, thông tin số</h3>
           <div class="goal-block">
             <p class="goal-line"><span class="goal-label">Mục tiêu</span>Rèn luyện kỹ năng khai thác, chọn lọc và đánh giá độ tin cậy của thông tin, dữ liệu kinh tế trên môi trường số.</p>
             <p class="goal-line"><span class="goal-label result">Thành quả</span>Xây dựng được bộ tiêu chí thẩm định nguồn tin đáng tin cậy, phục vụ hiệu quả cho học tập và nghiên cứu chuyên ngành.</p>
@@ -445,7 +447,7 @@
 
         <div class="work-card reveal">
           <span class="idx">03.</span>
-          <h3>✨ Ứng dụng trí tuệ nhân tạo trong học tập</h3>
+          <h3>🧸 Ứng dụng trí tuệ nhân tạo trong học tập</h3>
           <div class="goal-block">
             <p class="goal-line"><span class="goal-label">Mục tiêu</span>Làm chủ kỹ năng đặt câu lệnh (prompt) cho AI để hỗ trợ hiệu quả cho việc học tập và nghiên cứu chuyên ngành.</p>
             <p class="goal-line"><span class="goal-label result">Thành quả</span>Xây dựng được công thức prompt tối ưu, giúp AI phản hồi chính xác, sát với nhu cầu học tập thực tế.</p>
@@ -457,7 +459,7 @@
 
         <div class="work-card reveal">
           <span class="idx">04.</span>
-          <h3>✨ Giao tiếp và hợp tác trong môi trường số</h3>
+          <h3>🧸 Giao tiếp và hợp tác trong môi trường số</h3>
           <div class="goal-block">
             <p class="goal-line"><span class="goal-label">Mục tiêu</span>Vận dụng các công cụ đám mây để tối ưu hóa quy trình giao tiếp, chia sẻ và làm việc nhóm từ xa hiệu quả.</p>
             <p class="goal-line"><span class="goal-label result">Thành quả</span>Làm chủ kỹ năng phân công, theo dõi tiến độ và chỉnh sửa tài liệu đồng thời cùng các thành viên trong nhóm.</p>
@@ -469,7 +471,7 @@
 
         <div class="work-card reveal">
           <span class="idx">05.</span>
-          <h3>✨ Sáng tạo nội dung số</h3>
+          <h3>🧸 Sáng tạo nội dung số</h3>
           <div class="goal-block">
             <p class="goal-line"><span class="goal-label">Mục tiêu</span>Khai thác sức mạnh của AI tạo sinh để nâng cao chất lượng trình bày các sản phẩm nội dung học tập.</p>
             <p class="goal-line"><span class="goal-label result">Thành quả</span>Hoàn thiện sản phẩm nội dung số có tính thẩm mỹ cao, biết lồng ghép tư duy cá nhân thay vì phụ thuộc hoàn toàn vào AI.</p>
@@ -481,7 +483,7 @@
 
         <div class="work-card reveal">
           <span class="idx">06.</span>
-          <h3>✨ An toàn thông tin và liêm chính học thuật <span class="img-tag">🖼️ Đã chèn ảnh</span></h3>
+          <h3>🧸 An toàn thông tin và liêm chính học thuật <span class="img-tag">🖼️ Đã chèn ảnh</span></h3>
           <div class="goal-block">
             <p class="goal-line"><span class="goal-label">Mục tiêu</span>Thấu hiểu các tiêu chuẩn liêm chính học thuật để ứng dụng AI an toàn, có trách nhiệm và tôn trọng bản quyền dữ liệu.</p>
             <p class="goal-line"><span class="goal-label result">Thành quả</span>Thiết lập bộ nguyên tắc ứng xử số cá nhân và hoàn thành sản phẩm truyền thông về sử dụng AI có đạo đức.</p>
@@ -496,47 +498,47 @@
 
     <section id="tong-ket" class="postcard summary-postcard reveal">
       <div class="tape tl"></div><div class="tape tr"></div>
-      <div class="section-title" style="justify-content:center;"><span class="badge-num">02</span><h2>Tổng kết hành trình học tập</h2></div>
+      <div class="section-title" style="justify-content:center;"><span class="badge-num">02</span><h2>Tổng kết hành trình học tập 🎀</h2></div>
       <p class="quote-main">"Công nghệ số không chỉ hỗ trợ việc học mà còn là một kỹ năng thiết yếu đối với sinh viên trong thời đại chuyển đổi số."</p>
 
       <div class="summary-grid">
         <div class="summary-card">
-          <h3>🌿 Trải nghiệm & Cảm nhận</h3>
-          <p>Sau khi hoàn thành Portfolio, em nhận thấy đây không chỉ là nơi lưu trữ các bài tập mà còn là minh chứng cho quá trình học tập, rèn luyện và phát triển kỹ năng số của bản thân trong suốt học phần Công nghệ số. Thông qua 6 chủ đề, em đã được trang bị những kiến thức thiết thực, có thể áp dụng lâu dài vào học tập cũng như công việc chuyên môn sau này.</p>
+          <h3>🧸 Trải nghiệm & Cảm nhận</h3>
+          <p>After completing the portfolio, I realize that it's not just a storage space for assignments, but also an evidence of my learning process, digital skills development and personal growth throughout the Digital Technology course.</p>
         </div>
         
        <div class="summary-card">
           <h3>⚡ Kiến thức & Kỹ năng</h3>
           <div class="skills-card-list">
             <div class="skill-badge-item">
-              <span class="sk-ic">🛠️</span>
-              <span>Sử dụng hiệu quả các công cụ và nền tảng số[cite: 2].</span>
+              <span class="sk-ic">🎀</span>
+              <span>Sử dụng hiệu quả các công cụ và nền tảng số.</span>
             </div>
             <div class="skill-badge-item">
-              <span class="sk-ic">📊</span>
-              <span>Khai thác, đánh giá và quản lý thông tin số[cite: 2].</span>
+              <span class="sk-ic">🎀</span>
+              <span>Khai thác, đánh giá và quản lý thông tin số.</span>
             </div>
             <div class="skill-badge-item">
-              <span class="sk-ic">🤖</span>
-              <span>Ứng dụng AI hiệu quả và có trách nhiệm[cite: 2].</span>
+              <span class="sk-ic">🎀</span>
+              <span>Ứng dụng AI hiệu quả và có trách nhiệm.</span>
             </div>
             <div class="skill-badge-item">
-              <span class="sk-ic">👥</span>
-              <span>Hợp tác, làm việc nhóm trực tuyến đồng thời[cite: 2].</span>
+              <span class="sk-ic">🎀</span>
+              <span>Hợp tác, làm việc nhóm trực tuyến đồng thời.</span>
             </div>
             <div class="skill-badge-item">
-              <span class="sk-ic">🎨</span>
-              <span>Sáng tạo sản phẩm nội dung số bắt mắt[cite: 2].</span>
+              <span class="sk-ic">🎀</span>
+              <span>Sáng tạo sản phẩm nội dung số bắt mắt.</span>
             </div>
             <div class="skill-badge-item">
-              <span class="sk-ic">🛡️</span>
-              <span>Bảo mật thông tin và giữ gìn liêm chính học thuật[cite: 2].</span>
+              <span class="sk-ic">🎀</span>
+              <span>Bảo mật thông tin và giữ gìn liêm chính học thuật.</span>
             </div>
           </div>
         </div>
         
         <div class="summary-card">
-          <h3>🧩 Khó khăn vượt qua</h3>
+          <h3>🧸 Khó khăn vượt qua</h3>
           <p>Trong quá trình xây dựng Portfolio, em cũng gặp một số khó khăn trong việc tổng hợp nội dung, sắp xếp bố cục và hoàn thiện sản phẩm. Tuy nhiên, những thử thách đó đã giúp em rèn luyện tính cẩn thận, nâng cao khả năng tự học độc lập và kỹ năng tổ chức công việc khoa học hơn.</p>
         </div>
         
@@ -553,13 +555,13 @@
       </div>
 
       <div class="thanks-box">
-        <h3>🧸 Lời cảm ơn chân thành</h3>
+        <h3>🧸 Lời cảm ơn chân thành 🎀</h3>
         <p>Cuối cùng, em xin chân thành cảm ơn Quý Thầy, Cô đã tận tình giảng dạy, truyền đạt những kiến thức quý báu và luôn tạo điều kiện để em hoàn thành học phần Công nghệ số.</p>
-        <p>Em hy vọng những kiến thức và kỹ năng đã tích lũy được sẽ trở thành nền tảng vững chắc để em tiếp tục học tập, phát triển bản thân và sẵn sàng thích ứng với xu thế chuyển đổi số trong tương lai. Kính chúc Quý Thầy, Cô luôn dồi dào sức khỏe, hạnh phúc và thành công trong công tác giảng dạy! 🌱</p>
+        <p>Em hy vọng những kiến thức và kỹ năng đã tích lũy được sẽ trở thành nền tảng vững chắc để em tiếp tục học tập, phát triển bản thân và sẵn sàng thích ứng với xu thế chuyển đổi số trong tương lai. Kính chúc Quý Thầy, Cô luôn dồi dào sức khỏe, hạnh phúc và thành công trong công tác giảng dạy! 🎀</p>
       </div>
     </section>
 
-    <footer><span class="bear">🧸</span> Portfolio by Phan Hoàng Cẩm Tú <span class="bear">🌿</span></footer>
+    <footer><span class="bear">🧸</span> Portfolio by Phan Hoàng Cẩm Tú <span class="bear">🎀</span></footer>
 
   </main>
 </div>
@@ -570,7 +572,7 @@
     <button class="modal-close" onclick="closeModal()">✕</button>
     <div class="modal-eyebrow" id="modalEyebrow">Bài tập</div>
     <div class="modal-head">
-      <span class="modal-ic">✨</span>
+      <span class="modal-ic">🧸</span>
       <h3 id="modalTitle">Tiêu đề bài tập</h3>
     </div>
 
@@ -602,7 +604,6 @@
       link: "https://drive.google.com/file/d/1VXD0s2y-mmE3yq84xPB6ItECSCmV-9lP/view?usp=drive_link",
       goal: "Trang bị kiến thức nền tảng về phần cứng máy tính, các thiết bị ngoại vi thông dụng, đồng thời rèn thói quen tổ chức - lưu trữ tài liệu học tập khoa học, phục vụ hiệu quả cho việc học chuyên ngành Kinh tế Quốc tế.",
       processIntro: "Tìm hiểu chức năng của từng bộ phận máy tính và thiết bị ngoại vi, sau đó thực hành sắp xếp lại kho tài liệu học tập cá nhân theo một hệ thống thống nhất, dễ tra cứu.",
-      // Chèn link ảnh cns1.jpg thực tế
       actualImages: ["cns1.jpg"],
       steps: [
         { label: "Tìm hiểu cấu tạo & thiết bị ngoại vi:", desc: "Nghiên cứu chức năng của các bộ phận máy tính cùng những thiết bị ngoại vi thường dùng trong học tập như máy in, tai nghe, ổ cứng di động." },
@@ -678,7 +679,6 @@
       link: "https://drive.google.com/file/d/1SM7qUHtpPA_SHBOul4Q8ekwjGPV0xDNL/view?usp=drive_link",
       goal: "Thấu hiểu các tiêu chuẩn liêm chính học thuật để ứng dụng AI một cách an toàn, văn minh và tôn trọng bản quyền dữ liệu trong học tập, nghiên cứu.",
       processIntro: "Tìm hiểu quy định về trích dẫn, rủi ro bản quyền khi dùng AI, rồi chuyển hóa những hiểu biết đó thành một sản phẩm truyền thông nhỏ, dễ tiếp cận.",
-      // Chèn link ảnh cns6.jpg thực tế
       actualImages: [],
       steps: [
         { label: "Tìm hiểu quy tắc liêm chính học thuật:", desc: "Đọc và tổng hợp các quy định của nhà trường về việc sử dụng AI trong bài tập, tiểu luận, đặc biệt là yêu cầu ghi rõ nguồn hỗ trợ." },
@@ -692,7 +692,7 @@
   function openModal(i){
     const item = workDetails[i];
     document.getElementById('modalEyebrow').textContent = item.idx;
-    document.querySelector('.modal-ic').textContent = item.icon;
+    document.querySelector('.modal-ic').textContent = '🧸';
     document.getElementById('modalTitle').textContent = item.title;
     document.getElementById('modalGoal').textContent = item.goal;
     document.getElementById('modalProcessIntro').textContent = item.processIntro;
